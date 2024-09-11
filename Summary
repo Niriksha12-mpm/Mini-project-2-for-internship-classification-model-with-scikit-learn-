@@ -1,0 +1,21 @@
+code builds and evaluates a classification model using the Random Forest algorithm with scikit-learn:
+
+1. Import Libraries: Essential libraries for data handling, model training, and evaluation are imported.
+
+
+2. Load Dataset: The dataset is loaded from a CSV file.
+
+
+3. Preprocess Data: Features and target variables are separated; data is split into training and test sets.
+
+
+4. Feature Scaling: The feature data is scaled to standardize the range of values.
+
+
+5. Train Model: A Random Forest classifier is trained on the scaled training data.
+
+
+6. Predict and Evaluate: The model makes predictions on the test data, and its performance is assessed using accuracy, confusion matrix, and classification report.
+
+
+
